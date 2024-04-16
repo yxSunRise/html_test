@@ -1,0 +1,200 @@
+:root {
+    --buy-size: 100px;
+}
+
+.line-dex-item {
+    display: block;
+    width: 60px;
+    margin-left: 20px
+}
+
+.label-line {
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+.right-image {
+    width: 300px;
+    height: 300px;
+}
+
+.container-height {
+    height: 400px;
+}
+
+.spacex-content {
+    margin-top:40px;
+}
+
+.spacex-backgroupd {
+    position:relative;
+}
+
+.spacex-backgroupd::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: "";
+   background: transparent linear-gradient(180deg, #4e40ad 0%, #700e70 100%) 0% 0% no-repeat padding-box;
+   z-index: -1;
+}
+
+
+
+.spacex-backgroupd-interview {
+    /* background-size: cover;
+    background-image: url('../images/interview-background.jpg'); */
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.spacex-backgroupd-interview::before {
+    content: ""; /* 伪元素需要内容才能显示，即使是空内容 */  
+    position: absolute; /* 使伪元素脱离文档流，并且相对于包含块定位 */  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-image: url('../images/渐变2.png'); /* 设置背景图片 */  
+    background-size: cover; /* 根据需要调整背景图片大小 */  
+    opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
+    z-index: -1;
+}
+
+
+.spacex-backgroupd-about {
+    /* background-size: cover;
+    background-image: url('../images/interview-background.jpg'); */
+    position: relative;
+}
+
+.spacex-backgroupd-about::before {
+    content: ""; /* 伪元素需要内容才能显示，即使是空内容 */  
+    position: absolute; /* 使伪元素脱离文档流，并且相对于包含块定位 */  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-image: url('../images/about-background.jpeg'); /* 设置背景图片 */  
+    background-size: cover; /* 根据需要调整背景图片大小 */  
+    opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
+    /* z-index: -1; */
+}
+
+.spacex-backgroupd-tokenomics {
+    /* background-size: cover;
+    background-image: url('../images/interview-background.jpg'); */
+    position: relative;
+}
+
+.spacex-backgroupd-tokenomics::before {
+    content: ""; /* 伪元素需要内容才能显示，即使是空内容 */  
+    position: absolute; /* 使伪元素脱离文档流，并且相对于包含块定位 */  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-image: url('../images/tokenomics-background.jpeg'); /* 设置背景图片 */  
+    background-size: cover; /* 根据需要调整背景图片大小 */  
+    opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
+    /* z-index: -1; */
+}
+
+.spacex-white-color {
+    color: black;
+}
+
+.spacex-title {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.spacex-buy {
+    display: flex;
+    flex-direction: column;
+    width:100px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.spacex-buy a {
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: start; */
+}
+
+.spacex-buy img {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+}
+
+
+
+.spacex-buy:hover {
+    /* border-width: 20px; */
+    animation: move 0.8s linear 0s 1;
+}
+
+.spacex-buy img {
+    max-width: var(--buy-size);
+}
+
+.spacex-buy-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@keyframes move {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0px, -10px);
+    }
+    100% {
+        transform:translate(0px, 0px);
+    }
+}
+
+.spacex-logo {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -10px;
+}
+
+.about-left-image {
+    width: 300px;
+    height: 500px;
+}
+
+.about-left-image img{
+    height: 100%;
+}
+
+.spacex-nav {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+.spacex-nav-item {
+    align-self: center;
+}
+
+.sapcex-nav-background {
+    background-image: url('static/images/nav_background.jpg');
+}
+
