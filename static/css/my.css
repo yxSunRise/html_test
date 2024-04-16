@@ -65,16 +65,19 @@
     right: 0;  
     bottom: 0;  
     background-image: url('../images/spacex-background.jpg'); /* 设置背景图片 */  
+    box-shadow: 20px 0px 20px 0px #cd7549;
     background-size: cover; /* 根据需要调整背景图片大小 */  
-    opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
+    opacity: 0.9; /* 设置伪元素（及其背景图片）的透明度 */  
     z-index: -1;
 }
 
 
 .spacex-backgroupd-about {
     /* background-size: cover;
-    background-image: url('../images/interview-background.jpg'); */
+    background-image: url('../images/interview-background.jpg')spacex-backgroupd-about; */
     position: relative;
+    width: 100%;
+    height: 600px;
 }
 
 .spacex-backgroupd-about::before {
@@ -84,10 +87,16 @@
     left: 0;  
     right: 0;  
     bottom: 0;  
-    background-image: url('../images/about-background.jpeg'); /* 设置背景图片 */  
+    background-image: url('../images/about-background.jpg'); /* 设置背景图片 */  
     background-size: cover; /* 根据需要调整背景图片大小 */  
     opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
-    /* z-index: -1; */
+    z-index: -1;
+}
+
+.spacex-about-content {
+    width: 40%;
+    float: right;
+    height: 500px;
 }
 
 .spacex-backgroupd-tokenomics {
@@ -107,6 +116,27 @@
     background-size: cover; /* 根据需要调整背景图片大小 */  
     opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
     /* z-index: -1; */
+}
+
+.spacex-backgroupd-roadmap {
+    /* background-size: cover;
+    background-image: url('../images/interview-background.jpg'); */
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.spacex-backgroupd-roadmap::before {
+    content: ""; /* 伪元素需要内容才能显示，即使是空内容 */  
+    position: absolute; /* 使伪元素脱离文档流，并且相对于包含块定位 */  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-image: url('../images/roadmap_background.jpeg'); /* 设置背景图片 */  
+    background-size: cover; /* 根据需要调整背景图片大小 */  
+    opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
+    z-index: -1;
 }
 
 .spacex-white-color {

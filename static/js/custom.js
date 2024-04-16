@@ -39,11 +39,12 @@
             $(".sticky-header").parent().height( $("header").height() );
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();
-                if (scroll >= 100) {
-                    header.removeClass('affix-top').addClass("affix");
-                } else {
-                    header.removeClass("affix").addClass('affix-top');
-                }
+                // if (scroll >= 100) {
+                //     header.removeClass('affix-top').addClass("affix");
+                // } else {
+                //     header.removeClass("affix").addClass('affix-top');
+                // }
+                // header.removeClass('affix-top').removeClas('affix').addClass("affix");
             });
         });
       }
