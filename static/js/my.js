@@ -10,3 +10,7 @@ function initEvent() {
 }
 
 initEvent()
+
+function msgBox(msgInfo) {
+    alert(msgInfo)
+}
