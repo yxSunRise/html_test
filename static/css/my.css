@@ -227,6 +227,10 @@
     justify-content: center;
     align-items: end;
     gap: 20px;
+    /* background: transparent linear-gradient(135deg,  #ccb7e1 0%,#b8c6ef 100%) 0% 0% no-repeat padding-box; */
+    background-image: url("../images/nav-background.jpeg");
+    box-shadow: 0 0 20px 0 #8adbdb;
+    color:white;
 }
 
 .spacex-nav-item {
