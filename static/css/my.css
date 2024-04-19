@@ -23,12 +23,12 @@
     height: 400px;
 }
 
-.spacex-content {
+/* .spacex-content {
     margin-top:40px;
-}
+} */
 
 .spacex-backgroupd {
-    position:relative;
+    position: relative;
 }
 
 .spacex-backgroupd::after {
@@ -38,8 +38,8 @@
     top: 0;
     bottom: 0;
     content: "";
-   background: transparent linear-gradient(135deg,  #8adbdb 0%,#b8c6ef 100%) 0% 0% no-repeat padding-box;
-   z-index: -1;
+    background: transparent linear-gradient(135deg, #8adbdb 0%, #b8c6ef 100%) 0% 0% no-repeat padding-box;
+    z-index: -1;
 }
 
 .spacex-img-position {
@@ -57,18 +57,23 @@
 }
 
 .spacex-backgroupd-interview::before {
-    content: ""; /* 伪元素需要内容才能显示，即使是空内容 */  
-    position: absolute; /* 使伪元素脱离文档流，并且相对于包含块定位 */  
-    top: 0;  
-    left: 0;  
-    right: 0;  
-    bottom: 0;  
-    background-image: url('../images/spacex-background.jpg'); /* 设置背景图片 */  
+    content: "";
+    /* 伪元素需要内容才能显示，即使是空内容 */
+    position: absolute;
+    /* 使伪元素脱离文档流，并且相对于包含块定位 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/interview-background.jpg');
+    /* 设置背景图片 */
     /* box-shadow: 20px 0px 20px 0px #cd7549;
      */
     box-shadow: 0 0 20px 0 #8adbdb;
-    background-size: cover; /* 根据需要调整背景图片大小 */  
-    opacity: 0.9; /* 设置伪元素（及其背景图片）的透明度 */  
+    background-size: cover;
+    /* 根据需要调整背景图片大小 */
+    opacity: 0.9;
+    /* 设置伪元素（及其背景图片）的透明度 */
     z-index: -1;
 }
 
@@ -83,15 +88,20 @@
 }
 
 .spacex-backgroupd-about::before {
-    content: ""; /* 伪元素需要内容才能显示，即使是空内容 */  
-    position: absolute; /* 使伪元素脱离文档流，并且相对于包含块定位 */  
-    top: 0;  
-    left: 0;  
-    right: 0;  
-    bottom: 0;  
-    background-image: url('../images/about-background.jpg'); /* 设置背景图片 */  
-    background-size: cover; /* 根据需要调整背景图片大小 */  
-    opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
+    content: "";
+    /* 伪元素需要内容才能显示，即使是空内容 */
+    position: absolute;
+    /* 使伪元素脱离文档流，并且相对于包含块定位 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/about-background.jpg');
+    /* 设置背景图片 */
+    background-size: cover;
+    /* 根据需要调整背景图片大小 */
+    opacity: 0.8;
+    /* 设置伪元素（及其背景图片）的透明度 */
     z-index: -1;
 }
 
@@ -102,15 +112,20 @@
 }
 
 .spacex-backgroupd-tokenomics::before {
-    content: ""; /* 伪元素需要内容才能显示，即使是空内容 */  
-    position: absolute; /* 使伪元素脱离文档流，并且相对于包含块定位 */  
-    top: 0;  
-    left: 0;  
-    right: 0;  
-    bottom: 0;  
-    background-image: url('../images/tokenomics-background.jpeg'); /* 设置背景图片 */  
-    background-size: cover; /* 根据需要调整背景图片大小 */  
-    opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
+    content: "";
+    /* 伪元素需要内容才能显示，即使是空内容 */
+    position: absolute;
+    /* 使伪元素脱离文档流，并且相对于包含块定位 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/tokenomics-background.jpeg');
+    /* 设置背景图片 */
+    background-size: cover;
+    /* 根据需要调整背景图片大小 */
+    opacity: 0.8;
+    /* 设置伪元素（及其背景图片）的透明度 */
     /* z-index: -1; */
 }
 
@@ -123,20 +138,25 @@
 }
 
 .spacex-backgroupd-roadmap::before {
-    content: ""; /* 伪元素需要内容才能显示，即使是空内容 */  
-    position: absolute; /* 使伪元素脱离文档流，并且相对于包含块定位 */  
-    top: 0;  
-    left: 0;  
-    right: 0;  
-    bottom: 0;  
-    background-image: url('../images/roadmap_background.jpeg'); /* 设置背景图片 */  
-    background-size: cover; /* 根据需要调整背景图片大小 */  
-    opacity: 0.8; /* 设置伪元素（及其背景图片）的透明度 */  
+    content: "";
+    /* 伪元素需要内容才能显示，即使是空内容 */
+    position: absolute;
+    /* 使伪元素脱离文档流，并且相对于包含块定位 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/roadmap_background.jpeg');
+    /* 设置背景图片 */
+    background-size: cover;
+    /* 根据需要调整背景图片大小 */
+    opacity: 0.8;
+    /* 设置伪元素（及其背景图片）的透明度 */
     z-index: -1;
 }
 
 .spacex-white-color {
-    color:rgb(11, 6, 1);
+    color: rgb(11, 6, 1);
 }
 
 .spacex-black-color {
@@ -152,7 +172,7 @@
 .spacex-buy {
     display: flex;
     flex-direction: column;
-    width:100px;
+    width: 100px;
 
     padding-left: 10px;
     padding-right: 10px;
@@ -160,7 +180,7 @@
 
 
 .spacex-buy a {
-    width:100px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,11 +214,13 @@
     0% {
         transform: translate(0px, 0px);
     }
+
     50% {
         transform: translate(0px, -10px);
     }
+
     100% {
-        transform:translate(0px, 0px);
+        transform: translate(0px, 0px);
     }
 }
 
@@ -214,7 +236,7 @@
     height: 500px;
 }
 
-.about-left-image img{
+.about-left-image img {
     height: 100%;
 }
 
@@ -226,7 +248,7 @@
     /* background: transparent linear-gradient(135deg,  #ccb7e1 0%,#b8c6ef 100%) 0% 0% no-repeat padding-box; */
     background-image: url("../images/nav-background.jpeg");
     box-shadow: 0 0 20px 0 #8adbdb;
-    color:white;
+    color: white;
 }
 
 .spacex-nav-item {
@@ -238,27 +260,26 @@
 }
 
 .nav-font-color {
-    color:white;
+    color: white;
 }
 
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 300px) {}
 
-}
-  
 @media screen and (min-width: 1000px) {
-.roadmap-img {
-    position: relative;
-    left: -80px;
-}
-.roadmap-content {
-    position: relative;
-    left: 100px;
-}
+    .roadmap-img {
+        position: relative;
+        left: -80px;
+    }
 
-.spacex-about-content {
-    width: 40%;
-    float: right;
-    height: 500px;
-}
+    .roadmap-content {
+        position: relative;
+        left: 100px;
+    }
+
+    .spacex-about-content {
+        width: 40%;
+        float: right;
+        height: 500px;
+    }
 }
